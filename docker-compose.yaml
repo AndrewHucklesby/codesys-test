@@ -3,7 +3,7 @@ services:
   Wago-CAA-Runtime:
     image: wagoalex/cc-9301-app-analytics:1.0
     container_name: "050---wago-caa3-cc-FW26"
-    entrypoint: ["sleep", "99999"]
+    command: tail -F anything
     network_mode: host
     privileged: true
     volumes:
