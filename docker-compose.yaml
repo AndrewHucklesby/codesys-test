@@ -11,4 +11,3 @@ services:
       - /tmp:/tmp
       - /drm:/drm
       - ./configs/${PORTAINER_EDGE_ID}:/home/codesys_root/PlcLogic/Application
-    restart: always
